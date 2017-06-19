@@ -5,16 +5,17 @@
 	margin-top: 75px;
 }
 .background{
-	/*background-color: lightgray;*/
-	/*background-image: url('../images/cover.jpg');*/
+	background-color: #e5eae6;
 }
 .name-header{
 	font-size: 200%;
 	font-family: ‘American Typewriter’, ‘Courier New’, Courier, Monaco, mono;
 }
 .cover-image{
-	background: url('../images/cover2.jpeg') no-repeat center;
-	background-repeat: no-repeat;
+	background-image: ('../images/cover3.jpeg')
+	/*background: url('../images/cover3.jpeg') no-repeat center;*/
+	/*background-repeat: no-repeat;*/
+	/*margin-top: 0px;*/
 }
 
 /* Add a black background color to the top navigation */
@@ -32,11 +33,13 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-left: 1px solid #e5eae6;
+    border-right: 1px solid #e5eae6;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #31c647;
     color: black;
 }
 
@@ -45,4 +48,4 @@
     background-color: #4CAF50;
     color: white;
 }
-Try it Yourself »
+/*Try it Yourself »*/

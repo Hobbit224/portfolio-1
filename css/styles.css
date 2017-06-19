@@ -2,9 +2,14 @@
 	border-radius: 50%;
 	display: block;
 	margin: auto;
-	margin-top: 75px;
+	margin-top: 50px;
     border: 5px solid black;
     margin-bottom: 5px;
+}
+.aboutme-text{
+    /*margin-top: 179px;*/
+    font-size: 400%;
+    font-family: ‘American Typewriter’, ‘Courier New’, Courier, Monaco, mono;
 }
 .background{
 	background-color: #e5eae6;
@@ -14,16 +19,17 @@
 	font-family: ‘American Typewriter’, ‘Courier New’, Courier, Monaco, mono;
 }
 .name-footer{
-    font-size: 150%;
+    font-size: 125%;
     font-family: ‘American Typewriter’, ‘Courier New’, Courier, Monaco, mono;
 }
 .cover-image{
 	background: url('../images/cover4.jpeg') no-repeat center;
+    background-attachment: fixed;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-    /*background-color: #333;*/
+    background-color: #333;
     overflow: hidden;
 }
 .center-text{
@@ -47,7 +53,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    /*border-right: 1px solid white;*/
+    border-right: 1px solid white;
 }
 
 /* Change the color of links on hover */

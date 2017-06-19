@@ -26,6 +26,11 @@
 	background: url('../images/cover4.jpeg') no-repeat center;
     background-attachment: fixed;
 }
+.blackjack-pic{
+    border: 5px solid black;
+    width: 75%;
+    border-radius: 30%;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
